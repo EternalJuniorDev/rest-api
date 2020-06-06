@@ -2,14 +2,7 @@ const express = require('express')
 const path = require('path')
 const app = express();
 
-
-
-
-
-
-
-
-
+const CONTACTS = [];
 
 
 app.use(express.static(path.resolve(__dirname, 'clients')))
